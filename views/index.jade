@@ -1,0 +1,7 @@
+extends layout
+block content
+    h1 Drag your mouse over the canvas
+    h2 Other people can draw too
+    canvas(id="draw", resize="true")
+    script(type="text/paperscript", src="javascripts/draw.js", canvas="draw")
+    link(rel='stylesheet', href='/stylesheets/style.css')
