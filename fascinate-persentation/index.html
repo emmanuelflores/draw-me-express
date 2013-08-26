@@ -1,5 +1,6 @@
 <!--<link rel="stylesheet" href="css/theme/night.css" id="theme">-->
 <!--4d7e65-->
+<!--http://www.creativecolorschemes.com/resources/free-color-schemes/beige-tone-color-scheme.shtml-->
 <!doctype html>
 <html lang="en">
 
@@ -118,8 +119,45 @@
 			server.listen(3000);
 					    </code></pre>
 				</section>
-
+				
+				<section data-transition="linear" data-background="#ab9c73" data-background-transition="slide">
+					<h1>REPL</h1>
+					<h3>Read eval-print loop</h3>
+					<big>go to the terminal!</big>
+				</section>
+				
+				<section data-transition="linear" data-background="#ca8f42" data-background-transition="slide">
+					<h1>NPM</h1>
+					<h3>Node Package Manager</h3>
+					<h4>npm install 'name'</h4>
+				</section>
+				
+				
 				<section>
+					<h2>Theory One</h2>
+					<h1>Blocking and Non-Blocking servers</h1>
+					<p class="fragment">clients request things from servers</p>
+				</section>
+				
+				<section>
+					<p>Traditionally servers take care of these request by creating a thread for each one of the request, 
+					meaning that the server will block the request until it is completed.</p>
+					</br>
+					<h2>But node is different</h2>
+				</section>
+				
+				<section>
+					<p>Node is single threaded making use of an <strong>event loop</strong> where functions listen to events, acts and sleeps.</p>
+					</br>
+					<h3>We gain control and scalability!</h3>
+				</section>
+				
+				<section data-background="#b06660">
+					<h2>Theory Two</h2>
+					<h1>TCP & HTTP</h1>
+				</section>
+	
+				<!--<section>
 					<h2>Clever Quotes</h2>
 					<p>
 						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
@@ -129,30 +167,11 @@
 						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
 						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
 					</blockquote>
-				</section>
+				</section>-->
+				
+				
 
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
+<!--				<section>
 					<section>
 						<h2>Fragmented Views</h2>
 						<p>Hit the next arrow...</p>
@@ -178,19 +197,8 @@ function linkify( selector ) {
 						<p class="fragment highlight-green">highlight-green</p>
 						<p class="fragment highlight-blue">highlight-blue</p>
 					</section>
-				</section>
+				</section>-->
 
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-						during a presentation.
-					</p>
-				</section>
-				
-				<section>
-					<iframe data-autoplay width="420" height="345" src="http://www.youtube.com/embed/l3RQZ4mcr1c"></iframe>
-				</section>
 
 				<section>
 					<h1>THE END</h1>
