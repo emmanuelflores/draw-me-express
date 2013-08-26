@@ -1,6 +1,14 @@
 //history
 http://www.youtube.com/watch?v=SAc0vQCC6UQ
 
+//resources
+http://coding.smashingmagazine.com/2011/09/16/useful-node-js-tools-tutorials-and-resources/
+http://www.slideshare.net/jdcravens/devcon5-frog
+http://backbonetutorials.com/why-would-you-use-backbone/
+
+//phones
+http://cykod.com/blog/post/2011-08-using-nodejs-and-your-phone-to-control-a-browser-game
+
 //hardware
 http://www.youtube.com/watch?v=bu1Trc0FxSQ
 https://vimeo.com/68530396
@@ -19,7 +27,6 @@ http://www.youtube.com/watch?v=BanBzvuDtIY
 
 //AI
 http://www.youtube.com/watch?v=NG31UChnNfc
-
 
 //Hardware accelerated with node
 http://nodebots.io
