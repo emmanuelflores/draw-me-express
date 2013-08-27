@@ -152,10 +152,28 @@
 					<h3>We gain control and scalability!</h3>
 				</section>
 				
-				<section data-background="#b06660">
+				<section data-transition="linear" data-background="#b06660">
 					<h2>Theory Two</h2>
-					<h1>TCP, HTTP</h1>
-					<h1>and Websockets</h1>
+					<h1>HTTP</h1>
+					<h1><regular>&</regular></h1>
+					<h1>WebSockets</h1>
+				</section>
+				
+				<section data-transition="linear" data-background="#b06660" data-background-transition="slide">
+				<h2>Hypertext Transfer Protocol</h2>
+				<h1>Web communication protocol</h1>
+				<h3 style="font-style:italic;">request & response</h3>
+				</section>
+				
+				<section data-transition="linear" data-background="#b06660" data-background-transition="slide">
+					<h1>Hello Hypertext!</h1>
+					<pre><code class="javascript" style="background: red;">
+		require('http').createServer(function(req,res){
+			res.writeHead(200,{'Content-Type' : 'text/html'});
+			res.end('<h1 style="font-style:italic;">Hello</h2> <b>World</b>');
+		}).listen(3000);
+					</code></pre>
+					<h3>Look at the small anomaly!</h3>
 				</section>
 	
 				<!--<section>
