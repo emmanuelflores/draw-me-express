@@ -1,0 +1,18 @@
+doctype 5
+html
+  head
+    title= "hello mozzy"
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+    script(src='/javascripts/bootstrap.js')
+    
+  body
+    .navbar.navbar-fixed-top
+        .container
+            a(href="/drum") Drum Machine
+
+    block content
+    block second-content
+    block scripts

@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.btn-xlarge{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
