@@ -1,0 +1,23 @@
+{
+	"group_1": ["Chn 1",
+				"Chn 2",
+				"Chn 3",
+				"Chn 4"],
+
+	"group_2" : ["Data 1",
+				 "Data 2",
+				 "Data 3",
+				 "Data 4 ",
+				 "Data 5",
+				 "Data 6",
+				 "Data 7",
+				 "Data 8",
+				 "Data 9"],
+
+	"group_3" : ["Supply 1",
+				 "Supply 2",
+				 "Supply 3",
+				 "Supply 4"]
+
+}
+

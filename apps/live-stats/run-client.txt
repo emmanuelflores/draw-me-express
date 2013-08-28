@@ -1,0 +1,1 @@
+Place the 'client-live-stats' inside a web server solution like MAMP.
