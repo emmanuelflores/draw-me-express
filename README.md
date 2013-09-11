@@ -4,4 +4,4 @@ You will notice that my paths are set as '../node_modules/express'. Because I tr
 
 Node-Workspace/node_modules. Node-Workspace/yourApp.
 
-You can install the node packages globally (--g) and make use of them as: require('name')
+You can install the node packages globally (-g) and make use of them as: require('name')
